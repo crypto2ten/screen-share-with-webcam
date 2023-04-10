@@ -91,7 +91,7 @@
       <ActionBar on:record={onRecordButtonPress} />
     </div>
     <div class="border-l-[1px] border-fmd-gray w-1/3 flex flex-col gap-10 px-6 dark:border-fmd-blue">
-      <SidebarThemeSection />
+      <!-- <SidebarThemeSection /> -->
       <SidebarLayoutSection />
     </div>
   </div>

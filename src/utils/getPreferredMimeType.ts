@@ -5,10 +5,10 @@ export const getPreferredMimeType = () => {
 const MEDIA_TYPES = ["video"];
 const FILE_EXTENSIONS = ["mp4", "webm", "ogg", "x-matroska"];
 const CODECS = [
-  "vp9",
-  "vp9.0",
   "vp8",
   "vp8.0",
+  "vp9",
+  "vp9.0",
   "avc1",
   "av1",
   "h265",

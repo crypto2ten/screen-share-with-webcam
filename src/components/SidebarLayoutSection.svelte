@@ -25,15 +25,15 @@
       />
     </div>
     <div>
-      <InputLabel>Screen Position</InputLabel>
+      <!-- <InputLabel>Screen Position</InputLabel>
       <div class="mb-1" />
       <AlignmentPicker
         bind:horizAlign={$screenLayoutState.horizAlign}
         bind:vertAlign={$screenLayoutState.vertAlign}
-      />
+      /> -->
     </div>
     <!-- Webcam shape/width -->
-    <div class="col-span-2">
+    <!-- <div class="col-span-2">
       <Select
         title="Webcam shape"
         name="webcamShape"
@@ -44,7 +44,7 @@
         bind:value={$webcamLayoutState.shape}
         isDropdown={false}
       />
-    </div>
+    </div> -->
     <RangeInput
       name="webcamWidth"
       title="Webcam Width"

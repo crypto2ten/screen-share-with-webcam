@@ -77,5 +77,5 @@
     </button>
   </div>
 
-  <RecordingOptionsBar />
+  <!-- <RecordingOptionsBar /> -->
 </div>
