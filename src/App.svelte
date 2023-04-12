@@ -29,8 +29,6 @@
     const newBlob = await patchBlob(completeBlob, duration);
     const data = URL.createObjectURL(newBlob);
 
-    // return;
-
     const link = document.createElement("a");
     link.href = data;
     link.download = `video.${ext}`;

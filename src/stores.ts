@@ -420,7 +420,7 @@ const webcamStateSchema = z.object({
     .enum(verticalAlignmentOptions)
     .optional()
     .default(VertAlign.bottom),
-  shape: z.enum(webcamShapeOptions).optional().default(WebcamShape.circle),
+  shape: z.enum(webcamShapeOptions).optional().default(WebcamShape.initial),
   size: z.number().min(0).max(1).optional().default(0.4),
   borderRadius: z.number().min(0).max(1).optional().default(0.05),
 });
